@@ -2,7 +2,8 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.20'
 
-
+gem 'dalli'
+gem 'memcachier'
 gem 'pg'
 
 group :development do

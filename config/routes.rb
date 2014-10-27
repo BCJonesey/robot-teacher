@@ -1,7 +1,13 @@
 RobotTeacher::Application.routes.draw do
 
 
-  resources :api
+  resources :api do
+    collection do
+      get 'change'
+    end
+  end
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
